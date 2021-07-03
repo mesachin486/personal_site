@@ -1,0 +1,125 @@
+/* *{
+    padding: 0px;
+} */
+.header{
+    background-color: cornsilk;
+    height: 100px;
+    width: 100%;
+    color: indigo;
+    /* text-align: center; */
+}
+.header h1{
+    
+    line-height: 50px;
+    font-size: 50px;
+    border: 30px solid orange;
+    text-align: center;
+    
+}
+.list{
+    
+    height: 75px;
+    width: 100%;
+    text-align: center;
+
+}
+.list ul{
+    background-color: orange;
+    text-align: center;
+    line-height: 75px;
+    list-style-type: none;
+}
+.list ul li{
+    display: inline;
+   
+    padding: 50px;
+}
+.list ul li a{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    background-color: indigo;
+    color: orange;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+/* .list ul li a:visited{
+    background-color: red !important;
+    color: rgb(255, 102, 0);
+} */
+.list ul li a:hover{
+    background-color: rgb(116, 0, 199);
+   
+}
+.list ul li a:active{
+    background-color: rgb(153, 9, 255);
+    
+}
+.photoframe{
+    background-color: orange;
+    height:390px;
+    width: 30%;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    padding-top: 10px;
+    
+
+}
+.photoframe h1{
+    text-align: center;
+    height: 50px;
+    background-color: orange;
+    line-height: 50px;
+    padding: 0%;
+    color: indigo;
+
+}
+.photoframe img{  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: 8px ridge indigo;  
+    padding: 25px; 
+    
+
+}
+.about{
+    background-color: cornsilk;
+    height: 400px;
+    width: 70%;
+    color: indigo;
+    text-align: center;
+    float: left;
+}
+.about h1{
+    
+    line-height: 10px;
+    font-size: 20px;
+    color: indigo;
+}
+.contact{
+    background-color: cornsilk;
+    height: 400px;
+    width: 70%;
+    color: indigo;
+    text-align: center;
+    float: left;
+}
+.contact h1{
+    
+    line-height: 10px;
+    font-size: 20px;
+    color: indigo;
+}
+.contact p{
+    text-align:center; font-size: 20px;
+}
+.contact p a{
+    color: indigo;
+    text-decoration:none;
+}
+.contact p a:hover{
+    
+    text-decoration: underline;
+}
